@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+ <a href="" >
+   <img src="./logo.png" alt="Logo" width="80" height="80">
+ </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Image Interpolation Project
 
-## Available Scripts
+## Team : PLASMA
+## Participants
+### Harsh Mukesh Shah
+Roll No. - BTECH/10561/19
+Email Id - btech10561.19@bitmesra.ac.in
+Mobile No. - 9979197187
+### Vidhan Goyal
+Roll No. - BTECH/10578/19
+Email Id - btech10578.19@bitmesra.ac.in
+Mobile No. - 7987321671
+### Shanu Kumar Singh
+Roll No. - BTECH/10440/19
+Email Id - btech10440.19@bitmesra.ac.in
+Mobile No. - 7004803494
+### Shreesh Lahauriya
+Roll No. - BTECH/10576/19
+Email Id - btech10576.19@bitmesra.ac.in
+Mobile No. - 9305963316
+### Manjeet Singh
+Roll No. - BTECH/10008/19
+Email Id - btech10008.19@bitmesra.ac.in
+Mobile No. - 6006173301
+### Ishan Kumar
+Roll No. - BTECH/10612/19
+Email Id - btech10612.19@bitmesra.ac.in
+Mobile No. - 9582021206
 
-In the project directory, you can run:
+## Overview
+This project implements different interpolation algorithms such as nearest neighbor, bilinear bicubic and idw. 
 
-### `npm start`
+Presented as a web application this project is interactive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
+	HTML  |  CSS  |  JS  |  PYTHON  |  REACT JS  |  JAVA  | SPRING (Framework) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Frontend Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Requirements
+For building and running the application you need:
 
-### `npm run build`
+- [Nodejs](https://nodejs.org/en/download/)
+- [Browser](https://www.google.com/intl/en_in/chrome/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the application locally
+1. Clone this repository on local machine.
+2. Open the project in an IDE.
+3. Install all the requirements.
+```shell
+npm install -f
+```
+4. Deploy locally
+```shell
+npm start
+```
+5. Open a web browser and go to [http://localhost:3000/](http://localhost:3000/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## App Screenshots
+### Welcome Screen
+<img src="./welcome_screen.png" alt="welcome screen">
 
-### `npm run eject`
+### Output Screen
+<img src="./output_screen.png" alt="output screen">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Cloud Deployment
+This app has been deployed on the cloud for easy accessibility
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Go to [image-interpolation](https://image-interpolation.herokuapp.com/) using any web browser.
