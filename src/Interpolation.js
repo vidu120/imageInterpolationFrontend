@@ -30,7 +30,9 @@ const Interpolation = () => {
   };
 
   const getImage = async () => {
-    const res = await fetch("http://localhost:8080/api/algorithms");
+    const res = await fetch(
+      "https://image-interpolation-app.herokuapp.com/api/algorithms"
+    );
     const imageBlob = await res.blob();
     const imageObjectURL = URL.createObjectURL(imageBlob);
     setProcessedImage(imageObjectURL);
@@ -45,7 +47,10 @@ const Interpolation = () => {
     formData.append("multiPartFile", file[0], file[0].name);
     axios
       .post(
-        "http://localhost:8080/api/algorithms/" + algoType + "/" + scalingVal,
+        "https://image-interpolation-app.herokuapp.com/api/algorithms/" +
+          algoType +
+          "/" +
+          scalingVal,
         formData
       )
       .then((response) => {
