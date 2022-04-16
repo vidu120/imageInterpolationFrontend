@@ -3,6 +3,7 @@
  </a>
 
 # Image Interpolation Project
+[Github](https://github.com/vidu120/imageInterpolationFrontend)
 
 ## Team : PLASMA
 ## Participants
