@@ -8,6 +8,7 @@ import "@elastic/eui/dist/eui_theme_dark.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // USED ELASTIC UI FOR THE WHOLR PROJECT
   <EuiProvider colorMode="dark">
     <App />
   </EuiProvider>
